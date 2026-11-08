@@ -1,11 +1,28 @@
+# Python virtual environment
 .venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
+
+# Project data
 data/raw/
 data/processed/
+
+# Logs
 logs/
 *.log
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
